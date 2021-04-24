@@ -2,12 +2,12 @@
 Some Data Structures and Algorithms notes.
 
 ### Algorithms
--[x] [Sort](algorithms/sort.md)
+-[x] Sort [here](algorithms/sort.md)
 
--[ ] [Search](algorithms/search.md)
+-[ ] Search [here](algorithms/search.md)
 
 
 ### Data Structures
--[ ] [Linked List](datastructures/linked-list.md)
+-[ ] Linked List [here](datastructures/linked-list.md)
 
--[ ] [Binary Tree](datastructures/biary-tree.md)
+-[ ] Binary Tree [here](datastructures/biary-tree.md)
