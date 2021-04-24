@@ -1,7 +1,7 @@
 # Sort Algorithms
 ### Bubble Sort [wiki](https://en.wikipedia.org/wiki/Bubble_sort)
 
-**Golang Solution**
+Golang Solution
 ```go
 func bubbleSort(nums []int)  {
 	n := len(nums)
