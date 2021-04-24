@@ -1,16 +1,18 @@
 # Sort Algorithms
-### Bubble Sort [wiki](https://en.wikipedia.org/wiki/Bubble_sort)
+### Swap Sort 
+[Bubble Sort](sort/bubble_sort.go)
 
-Golang Solution
-```go
-func bubbleSort(nums []int)  {
-	n := len(nums)
-	for i := 0; i < n; i++ {
-		for j := i + 1; j < n; j++ {
-			if nums[i] > nums[j] {
-				nums[i], nums[j] = nums[j], nums[i]
-			}
-		}
-	}
-}
-```
+[Quick Sort](sort/quick_sort.go)
+
+### Select Sort
+[Select Sort](sort/quick_sort.go)
+
+[Heap Sort](sort/heap_sort.go)
+
+### Insert Sort
+Insert Sort
+
+Shell Sort
+
+### Merge Sort
+Merge Sort
