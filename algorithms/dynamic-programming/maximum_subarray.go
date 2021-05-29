@@ -38,3 +38,5 @@ func maxSubArray1(nums []int) int {
 	}
 	return max
 }
+
+// another solution: devide and conquer
