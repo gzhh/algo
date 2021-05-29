@@ -2,11 +2,13 @@
 Some Data Structures and Algorithms notes.
 
 ### Algorithms
-- [Sort](algorithms/README.md)
+- [Sort](algorithms/sort/README.md)
 
 - [Search](algorithms/search/README.md)
 
 - [Cache](algorithms/cache/README.md)
+
+- [Dynamic Programming](algorithms/dynamic-programming/README.md)
 
 
 ### Data Structures

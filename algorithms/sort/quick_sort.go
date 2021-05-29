@@ -1,6 +1,6 @@
 package sort
 
-func QuickSort(nums []int, left, right int)  {
+func QuickSort(nums []int, left, right int) {
 	if left >= right {
 		return
 	}

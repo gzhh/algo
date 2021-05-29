@@ -1,13 +1,13 @@
 # Sort Algorithms
 ### Swap Sort 
-[Bubble Sort](bubble_sort.go)
+[Bubble Sort](algorithms/sort/bubble_sort.go)
 
-[Quick Sort](quick_sort.go)
+[Quick Sort](algorithms/sort/quick_sort.go)
 
 ### Select Sort
-[Select Sort](quick_sort.go)
+[Select Sort](algorithms/sort/quick_sort.go)
 
-[Heap Sort](heap_sort.go)
+[Heap Sort](algorithms/sort/heap_sort.go)
 
 ### Insert Sort
 Insert Sort

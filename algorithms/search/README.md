@@ -1,3 +1,3 @@
 # Search algorithms
 ### Binary Search
-[Binary Search](bubble_sort.go)
+[Binary Search](algorithms/search/binary_search.go)
