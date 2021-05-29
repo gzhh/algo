@@ -6,4 +6,5 @@
 ### Subsequence Problems
 **Maximum Sum contiguous subsequence**
 - [Leetcode 53. Maximum Subarray](maximum_subarray.go)
-- [Leetcode 1800. Maximum Ascending Subarray Sum](maximum_subarray.go)
+- [Leetcode 1800. Maximum Ascending Subarray Sum](max_ascending_sum.go)
+- [Leetcode 918. Maximum Sum Circular Subarray](max_subarray_sum_circular.go)
