@@ -1,5 +1,6 @@
 package dynamicprogramming
 
+// fibonacci sqeuence problems
 func ClimbStairs(n int) int {
 	dp := make([]int, n+1)
 	dp[0], dp[1] = 1, 1
