@@ -22,11 +22,22 @@ func TestLru(t *testing.T) {
 	var wantResult = []string{"F", "D", "E", "C"}
 	for key, char := range result {
 		if char != wantResult[key] {
-			t.Fatalf("lur = %v, want %v", result, wantResult)
+			t.Fatalf("lur list = %v, want %v", result, wantResult)
+		}
+	}
+
+	wantResult = []string{"valueF", "valueD", "valueE", "valueC"}
+	for key, char := range result {
+		if e, ok := lru.cache[char]; !ok || e.Value.(Pair).value != wantResult[key] {
+			t.Fatalf("lur cache element value = %v, want %v", e.Value.(Pair).value, wantResult[key])
 		}
 	}
 
 	for e := lru.list.Front(); e != nil; e = e.Next() {
 		fmt.Printf("%+v\n", e.Value)
+	}
+
+	for key, element := range lru.cache {
+		fmt.Printf("%s => %+v\n", key, element.Value)
 	}
 }
