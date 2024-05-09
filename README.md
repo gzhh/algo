@@ -1,6 +1,8 @@
 # DataStructures
 Some Data Structures and Algorithms notes.
 
+![](images/algorithm_knowleadge_map.jpg)
+
 ### Algorithms
 - [Sort](algorithms/sort/README.md)
 
