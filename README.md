@@ -1,5 +1,9 @@
-# DataStructures
-Some Data Structures and Algorithms notes.
+# Data Structures & Algorithms
+Some Data Structures and Algorithms implementation.
+
+Ref
+- https://github.com/TheAlgorithms
+- https://github.com/TheAlgorithms/Go
 
 ![](images/algorithm_knowleadge_map.jpg)
 
